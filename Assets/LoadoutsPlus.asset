@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc43e4983a160e543856e5ba0421c9e1, type: 3}
+  m_Name: LoadoutsPlus
+  m_EditorClassIdentifier: 
+  metadata:
+    guid: a601c2e54b924c5bbcac0eaad221a394
+    name: LoadoutsPlus
+    skipSafetyChecks: 0
+    disableScripts: 0
+    accessesExtraAssemblies: 1
+    disableHarmonyPatching: 0
+    requiredOn: 0
+    files:
+    - path: Localization/Localization.csv
+    - path: Scripts/LoadoutsPlusMod.cs
+    - path: Scripts/LoadoutsManager.cs
+    - path: Scripts/ExtraLoadoutsSystem.cs
+    - path: Scripts/Common/Util.cs
+    - path: Scripts/Common/UI/ForceSpriteColor.cs
+    - path: Scripts/Generated/ExtraLoadoutsSystem__System_1440490124.g.cs
+    - path: Bundles/LoadoutsPlus_Windows.assetbundle
+    dependencies: []
+  modPath: Assets\LoadoutsPlus
