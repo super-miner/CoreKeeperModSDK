@@ -1,0 +1,3 @@
+[submodule "SDK\\CoreKeeperModSDK\\Assets\\LoadoutsPlus"]
+	path = SDK\\CoreKeeperModSDK\\Assets\\LoadoutsPlus
+	url = https://github.com/super-miner/CoreKeeperModSDK
