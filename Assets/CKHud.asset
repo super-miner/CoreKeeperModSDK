@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc43e4983a160e543856e5ba0421c9e1, type: 3}
+  m_Name: CKHud
+  m_EditorClassIdentifier: 
+  metadata:
+    guid: eaa9ffb50ac7409ab66aa87fca91bf94
+    name: CKHud
+    skipSafetyChecks: 0
+    disableScripts: 0
+    accessesExtraAssemblies: 1
+    disableHarmonyPatching: 0
+    requiredOn: 0
+    files:
+    - path: Scripts/HudText.cs
+    - path: Scripts/HudRow.cs
+    - path: Scripts/HudManager.cs
+    - path: Scripts/HudComponents/SpawnCellHudComponent.cs
+    - path: Scripts/HudComponents/PositionHudComponent.cs
+    - path: Scripts/HudComponents/MaxDPSHudComponent.cs
+    - path: Scripts/HudComponents/LocalComputerTimeHudComponent.cs
+    - path: Scripts/HudComponents/HudComponentsRegistry.cs
+    - path: Scripts/HudComponents/HudComponent.cs
+    - path: Scripts/HudComponents/FPSHudComponent.cs
+    - path: Scripts/HudComponents/FPSCapHudComponent.cs
+    - path: Scripts/HudComponents/DPSHudComponent.cs
+    - path: Scripts/HudComponents/CenterDistanceHudComponent.cs
+    - path: Scripts/HarmonyPatches/DPSPatches.cs
+    - path: Scripts/Config/ConfigManager.cs
+    - path: Scripts/Config/ConfigComponentsLayout.cs
+    - path: Scripts/Common/Util.cs
+    - path: Scripts/Common/UI/ModInputField.cs
+    - path: Scripts/Common/Config/ConfigVariable.cs
+    - path: Scripts/Common/Config/ConfigSystem.cs
+    - path: Scripts/Common/Config/ConfigString.cs
+    - path: Scripts/Common/Config/ConfigInt.cs
+    - path: Scripts/Common/Config/ConfigFloat.cs
+    - path: Scripts/Common/Config/ConfigColor.cs
+    - path: Scripts/Common/Config/ConfigBool.cs
+    - path: Scripts/CKHudMod.cs
+    - path: Bundles/CKHud_Windows.assetbundle
+    - path: Bundles/CKHud_Linux.assetbundle
+    dependencies:
+    - modName: CoreLib
+      required: 1
+    - modName: CoreLib.RewiredExtension
+      required: 1
+    - modName: CoreLib.Localization
+      required: 1
+  modPath: Assets\CKHud

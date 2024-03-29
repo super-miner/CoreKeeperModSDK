@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "ck.modding.corelib": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/CoreLibPackage#main",
+    "ck.modding.sdk-extensions": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/SDKExtensions#main",
+    "ck.modding.markdig": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/Markdig#main",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.addressables": "1.21.17",
     "com.unity.ai.navigation": "1.1.4",

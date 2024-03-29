@@ -1,5 +1,32 @@
 {
   "dependencies": {
+    "ck.modding.corelib": {
+      "version": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/CoreLibPackage#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "ck.modding.markdig": "0.33.0"
+      },
+      "hash": "cf2209b5c1fe74fd60f07403bab91e40a7a4c812"
+    },
+    "ck.modding.markdig": {
+      "version": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/Markdig#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cf2209b5c1fe74fd60f07403bab91e40a7a4c812"
+    },
+    "ck.modding.sdk-extensions": {
+      "version": "https://github.com/CoreKeeperMods/CoreLib.git?path=/Assets/SDKExtensions#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "ck.modding.markdig": "0.33.0"
+      },
+      "hash": "cf2209b5c1fe74fd60f07403bab91e40a7a4c812"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -47,6 +74,13 @@
         "com.unity.modules.unityanalytics": "1.0.0",
         "com.unity.nuget.mono-cecil": "1.11.4"
       }
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.entities": {
       "version": "1.0.14",
